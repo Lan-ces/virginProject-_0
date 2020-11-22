@@ -1,0 +1,74 @@
+body {
+    margin: 15px;
+    padding: 15px;
+    background-position: static;
+    display: flex-box;
+    }
+
+.Form {
+    padding: 1.3em .8em 1em;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    margin-top: 250px;
+    margin-bottom: auto;
+    display: block;
+    float: none;
+}
+
+.Input {
+    background: #fff;
+    display: flex;
+    border: 1px solid black;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 80px;
+    font-family: Verdana, sans-serif;
+    font-style: normal;
+    font-size: 60px; 
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 25px 15px;
+    width: 100%;
+}
+
+.Description {
+  
+    float: left;
+    margin-left: 40px;
+    margin-top: auto;
+    margin-bottom: 5px;
+}
+.Input-Button {
+        background: rgb(58, 53, 53);
+        color: seashell;
+        font-size: 30px;
+        display: flex;
+        border: 1px solid #2d2e2e;
+        box-shadow: none;
+        z-index: 3;
+        height: 50px;
+        margin: 50px auto 40px auto; 
+        max-width: 800px;
+        
+    }
+
+.Div {
+    background-color: chartreuse;
+    color: darkblue;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.Link {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+
+.Link::hover {
+    color:red;
+}
